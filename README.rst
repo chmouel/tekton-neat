@@ -6,6 +6,11 @@ Tekton Neat
 .. image:: https://img.shields.io/pypi/v/tekton-neat.svg
         :target: https://pypi.python.org/pypi/tekton-neat
 
+.. image:: https://img.shields.io/codecov/c/github/chmouel/tekton-neat/master.svg?style=flat-square
+        :target: https://codecov.io/gh/chmouel/tekton-neat
+
+.. image:: https://img.shields.io/pypi/l/tekton-neat.svg?style=flat-square
+        :target: https://pypi.python.org/pypi/tekton-neat
 
 Export your tekton templates neatly
 
