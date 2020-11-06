@@ -13,7 +13,5 @@ sample_document = """
 
 
 def test_content():
-    # with tempfile.NamedTemporaryFile() as tmp:
-    # open(tmp.name, 'w').write(sample_document)
     ret = yaml.safe_load("\n".join(process(sample_document)))
     assert 'managedFields' not in ret['metadata']
