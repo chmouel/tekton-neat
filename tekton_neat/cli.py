@@ -23,7 +23,7 @@ def main():
 
     for filename in args.files:
         if not os.path.exists(filename):
-            print("{filename} does not exist.")
+            print(f"{filename} does not exist.")
             return 1
         print("\n".join(process(open(filename).read())))
 
