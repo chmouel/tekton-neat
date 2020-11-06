@@ -16,7 +16,7 @@ Export your tekton templates neatly
 Features
 --------
 
-* Like [kubectl neat](https://github.com/itaysk/kubectl-neat), `tekton-neat` would cleanup tekton yaml coming from live object and cleans it so you can easily reimport it or inspect it.
+* Like `kubectl neat <https://github.com/itaysk/kubectl-neat>`_, ``tekton-neat`` cleanup  a  yaml coming from a live object and cleans it so you can easily re-import or inspect it.
 
 Screenshot
 ----------

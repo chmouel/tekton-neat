@@ -48,7 +48,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/chmouel/tekton_neat',
-    version='0.1.0',
+    url='https://github.com/chmouel/tekton-neat',
+    version='0.2.0',
     zip_safe=False,
 )
