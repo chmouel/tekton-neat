@@ -17,6 +17,7 @@ CLEANIT = [
 
 
 def process(yamls):
+    """Process yamls document single or multiple."""
     jeez = yaml.safe_load(yamls)
     ret = []
 
