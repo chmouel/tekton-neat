@@ -3,7 +3,7 @@ import yaml
 
 CLEANIT = [
     'metadata->generation',
-    'metadata->annotations',
+    'metadata->annotations->kubectl.kubernetes.io/last-applied-configuration',
     'metadata->pipeline.tekton.dev/release',
     'creationTimestamp',
     'generation',
