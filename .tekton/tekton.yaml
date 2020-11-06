@@ -1,0 +1,11 @@
+secrets:
+  - chmouel-tektonneat-codecov
+
+tasks:
+  - git-clone
+  - pylint
+  - pytest
+  - codecov
+
+files:
+  - run.yaml
